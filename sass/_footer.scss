@@ -11,12 +11,12 @@
 }
 .footer_bloc{
 
-    @media screen and (min-width: 780px) {
+    @media screen and (min-width: 768px) {
         display: flex;
         flex-direction: row;
         padding-bottom: 59px;   
     }
-    @media screen and (min-width: 780px) {
+    @media screen and (min-width: 768px) {
         padding-bottom: 0px;   
     }
 }
@@ -26,11 +26,11 @@
     display: flex;
     color: #D41443;
     padding-bottom: 40px;
-    @media screen and (min-width: 780px) {
+    @media screen and (min-width: 768px) {
         padding-bottom: 0px;   
         width: 340px;
     }
-    @media screen and (min-width: 780px) {
+    @media screen and (min-width: 768px) {
         width: auto;
     }
    
@@ -53,6 +53,7 @@
         line-height: 1.15;
         letter-spacing: 0.04em;
         padding-bottom: 12px;
+        width: 340px;
     }
     @media screen and (min-width: 1200px) {
         font-size: 30px;
@@ -73,9 +74,9 @@
         font-size: 48px;
         line-height: 1.15;
         letter-spacing: 0.06em;
-       
+       padding-bottom: 40px;
     }
-    @media screen and (min-width: 1199px) {
+    @media screen and (min-width: 1200px) {
         font-size: 58px;
         line-height: 1.13;
         width: 474px;
@@ -97,6 +98,7 @@
     @media screen and (min-width: 1200px) {
        padding-left: 375px;
        padding-top:11px;
+       padding-bottom: 60px;
        
     }
 }
@@ -145,12 +147,6 @@
     cursor: pointer; 
 }
 
-.tel{
-    @media screen and (min-width: 1200px) {
-         
-        padding-bottom: 60px;
-    }
-}
 .tel-text{
     font-weight: 700;
     font-size: 13px;
